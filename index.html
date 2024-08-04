@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bericsol - Develop Custom Software</title>
+
+    <!-- favicon -->
+    <link rel="shortcut icon" href="./assets/favicon.ico" type="image/x-icon" />
+
+    <!-- custom css link -->
+    <link rel="stylesheet" href="./style.css" />
+
+    <!-- google font link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- preload images -->
+    <link rel="preload" as="image" href="./assets/images/hero-banner.png" />
+  </head>
+
+  <body id="top">
+    <header class="header" data-header>
+      <div class="container">
+        <a href="#" class="logo">Bericsol</a>
+
+        <nav class="navbar" data-navbar>
+          <div class="wrapper">
+            <a href="#" class="logo">Bericsol</a>
+
+            <button
+              class="nav-close-btn"
+              aria-label="close menu"
+              data-nav-toggler
+            >
+              <ion-icon name="close-outline" aria-hidden="true"></ion-icon>
+            </button>
+          </div>
+
+          <ul class="navbar-list">
+            <li class="navbar-item">
+              <a href="#home" class="navbar-link" data-nav-link>Home</a>
+            </li>
+
+            <li class="navbar-item">
+              <a href="#service" class="navbar-link" data-nav-link>Services</a>
+            </li>
+
+            <li class="navbar-item">
+              <a href="#feature" class="navbar-link" data-nav-link>Features</a>
+            </li>
+          </ul>
+        </nav>
+
+        <button class="nav-open-btn" aria-label="open menu" data-nav-toggler>
+          <ion-icon name="menu-outline" aria-hidden="true"></ion-icon>
+        </button>
+
+        <a href="#contact-us" class="btn btn-primary has-before has-after"
+          >Contact Us</a
+        >
+
+        <div class="overlay" data-nav-toggler data-overlay></div>
+      </div>
+    </header>
+
+    <main>
+      <article>
+        <section class="container section hero" id="home" aria-label="hero">
+          <div class="text-center">
+            <div class="hero-content">
+              <h1 class="h1 hero-title">
+                We Empower <span class="has-before">Business</span> with
+                Cutting-Edge
+                <span class="has-before">Technology</span> Solutions
+              </h1>
+
+              <p class="hero-text" id="contact-us">
+                At Bericsol, we excel in crafting, producing, constructing,
+                delivering, and expanding stunning, user-friendly products with
+                lightning speed efficiency
+              </p>
+
+              <!-- <div class="container"> -->
+              <a href="#contact-us" class="btn btn-primary has-before has-after"
+                >Digitize Now</a
+              >
+              <!-- </div> -->
+
+              <ul class="social-list">
+                <li>
+                  <a
+                    href="mailto:bericsol@outlook.com"
+                    target="_blank"
+                    class="social-link"
+                    style="--color: hsl(241, 77%, 63%)"
+                  >
+                    <ion-icon name="mail-outline"></ion-icon>
+                    <span class="span">bericsol@outlook.com</span>
+                  </a>
+                </li>
+
+                <!-- <li>
+                  <a
+                    href="https://wa.me/92186463990"
+                    target="_blank"
+                    class="social-link"
+                    style="--color: hsl(173, 86%, 20%)"
+                  >
+                    <ion-icon name="logo-whatsapp"></ion-icon>
+                    <span class="span">+923186463990</span>
+                  </a>
+                </li> -->
+              </ul>
+            </div>
+          </div>
+        </section>
+
+        <!-- SERVICE -->
+        <section class="section service" id="service" aria-label="service">
+          <div class="container">
+            <p class="section-subtitle has-before text-center">Services</p>
+
+            <h2 class="h2 section-title text-center">
+              Managing you business with our
+              <span class="has-before">best service</span>
+            </h2>
+
+            <ul class="grid-list">
+              <li>
+                <div class="service-card" style="--color: 174, 77%, 50%">
+                  <h3 class="h3">
+                    <a href="#" class="card-title">UX/UI Design</a>
+                  </h3>
+                </div>
+              </li>
+
+              <li>
+                <div class="service-card" style="--color: 210, 100%, 53%">
+                  <h3 class="h3">
+                    <a href="#" class="card-title">Web Development</a>
+                  </h3>
+                </div>
+              </li>
+
+              <li>
+                <div class="service-card" style="--color: 17, 100%, 68%">
+                  <h3 class="h3">
+                    <a href="#" class="card-title">App Development</a>
+                  </h3>
+                </div>
+              </li>
+
+              <li>
+                <div class="service-card" style="--color: 267, 76%, 57%">
+                  <h3 class="h3">
+                    <a href="#" class="card-title">AI/ML Development</a>
+                  </h3>
+                </div>
+              </li>
+
+              <li>
+                <div class="service-card" style="--color: 343, 98%, 60%">
+                  <h3 class="h3">
+                    <a href="#" class="card-title">Project Management</a>
+                  </h3>
+                </div>
+              </li>
+
+              <li>
+                <div class="service-card" style="--color: 157, 89%, 44%">
+                  <h3 class="h3">
+                    <a href="#" class="card-title">DevOps</a>
+                  </h3>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </section>
+
+        <!-- #FEATURE -->
+        <section class="section feature" id="feature" aria-label="feature">
+          <div class="container">
+            <div class="feature-content">
+              <p class="section-subtitle has-before text-center">Features</p>
+
+              <h2 class="h2 section-title text-center">
+                We are Specialists in Solving Software
+                <span class="has-before">Challenges</span>
+              </h2>
+
+              <ul class="feature-list">
+                <li>
+                  <div class="feature-card">
+                    <div class="card-icon" style="--color: 174, 77%, 50%">
+                      <ion-icon
+                        name="rocket-sharp"
+                        aria-hidden="true"
+                      ></ion-icon>
+                    </div>
+
+                    <div>
+                      <h3 class="h3 card-title">Fast working process</h3>
+
+                      <p class="card-text">
+                        High-quality deliverables within tight deadlines
+                        achieved through streamlined processes.
+                      </p>
+                    </div>
+                  </div>
+                </li>
+
+                <li>
+                  <div class="feature-card">
+                    <div class="card-icon" style="--color: 343, 98%, 60%">
+                      <ion-icon
+                        name="cash-outline"
+                        aria-hidden="true"
+                      ></ion-icon>
+                    </div>
+
+                    <div>
+                      <h3 class="h3 card-title">Cost-Effectiveness</h3>
+                      <p class="card-text">
+                        Reliable solutions at competitive prices, achieve your
+                        business objectives.
+                      </p>
+                    </div>
+                  </div>
+                </li>
+
+                <li>
+                  <div class="feature-card">
+                    <div class="card-icon" style="--color: 241, 77%, 63%">
+                      <ion-icon
+                        name="bulb-outline"
+                        aria-hidden="true"
+                      ></ion-icon>
+                    </div>
+
+                    <div>
+                      <h3 class="h3 card-title">Innovative Solutions</h3>
+
+                      <p class="card-text">
+                        Offering cutting-edge solutions leveraging the latest
+                        technology advancements.
+                      </p>
+                    </div>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </section>
+      </article>
+    </main>
+
+    <!-- 
+    - #FOOTER
+  -->
+
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-top section">
+          <div class="footer-brand">
+            <p class="footer-list-title">About Bericsol</p>
+
+            <p class="footer-text">
+              Bericsol is a technology solutions provider company offering
+              services including UX/UI Design, Web Development, App Development,
+              AI/ML Development, Project Management, & DevOps.
+            </p>
+
+            <!-- <ul class="social-list">
+              <li>
+                <a
+                  href="https://www.linkedin.com/company/bericsol/"
+                  target="”_blank”"
+                  class="social-link"
+                >
+                  <ion-icon name="logo-linkedin"></ion-icon>
+                </a>
+              </li>
+
+              <li>
+                <a href="#" target="”_blank”" class="social-link">
+                  <ion-icon name="logo-youtube"></ion-icon>
+                </a>
+              </li>
+
+              <li>
+                <a href="#" target="”_blank”" class="social-link">
+                  <ion-icon name="logo-instagram"></ion-icon>
+                </a>
+              </li>
+
+              <li>
+                <a href="#" target="”_blank”" class="social-link">
+                  <ion-icon name="logo-twitter"></ion-icon>
+                </a>
+              </li>
+            </ul> -->
+          </div>
+
+          <ul class="footer-list">
+            <li>
+              <p class="footer-list-title">Usefull Links</p>
+            </li>
+
+            <li>
+              <a href="#" class="footer-link">About Us</a>
+            </li>
+
+            <li>
+              <a href="#" class="footer-link">Careers</a>
+            </li>
+
+            <li>
+              <a href="#" class="footer-link">Contact Us</a>
+            </li>
+
+            <li>
+              <a href="#" class="footer-link">Features</a>
+            </li>
+
+            <li>
+              <a href="#" class="footer-link">Products</a>
+            </li>
+          </ul>
+
+          <ul class="footer-list">
+            <li>
+              <p class="footer-list-title">Services</p>
+            </li>
+
+            <li>
+              <a href="#" class="footer-link">UX/UI Design</a>
+            </li>
+
+            <li>
+              <a href="#" class="footer-link">Web Development</a>
+            </li>
+
+            <li>
+              <a href="#" class="footer-link">App Development</a>
+            </li>
+
+            <li>
+              <a href="#" class="footer-link">AI/ML Development</a>
+            </li>
+
+            <li>
+              <a href="#" class="footer-link">Project Management</a>
+            </li>
+
+            <li>
+              <a href="#" class="footer-link">DevOps</a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="footer-bottom">
+          <p class="copyright">
+            Copyrights © 2024 All Rights Reserved by Bericsol
+          </p>
+
+          <ul class="footer-bottom-list">
+            <li>
+              <a href="#" class="footer-bottom-link">Terms and conditions</a>
+            </li>
+
+            <li>
+              <a href="#" class="footer-bottom-link">Privacy policy</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+
+    <!-- #BACK TO TOP -->
+
+    <a
+      href="#top"
+      class="back-top-btn has-after active"
+      aria-label="back to top"
+      data-back-top-btn
+    >
+      <ion-icon name="arrow-up" aria-hidden="true"></ion-icon>
+    </a>
+
+    <!-- custom js link -->
+    <script src="./script.js" defer></script>
+
+    <!-- ionicon link-->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>
